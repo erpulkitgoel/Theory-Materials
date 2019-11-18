@@ -1,0 +1,33 @@
+Topics to Learn and Revise
+
+1) Cross Entropy
+2) One hot Encoding
+3) Stochsatic Gradient Descend/ Adam Optimizer
+4) Epochs
+5) Dense Map/ Fully Connected Layer
+6) ReLU activation
+7) LSTM
+8) VGG16
+9) OpenCV
+10) tanh activation
+11) Zero Padding
+12) Normalization
+13) Activation Functions in NN
+14) Common CNN Models( VGG16, AlexNet,, Residual Network, Inception Network.)
+
+A brief intro to CNN  (https://www.kaggle.com/shahules/getting-started-with-cnn-and-vgg16) 
+The convolution operation is the building block of a convolutional neural network as the name suggests it. Now, in the field of computer vision, an image can be expressed as a matrix of RGB values. Therefore, let’s consider the 6x6 matrix below as a part of an image:
+
+And the filter will be the following matrix:
+
+Then, the convolution involves superimposing the filter onto the image matrix, adding the product of the values from the filter and and the values from the image matrix, which will generate a 4x4 convoluted layer.
+
+This is very hard to put in words, but here is a nice animation that explains the convolution:
+
+Convolutions are defined on two key parameters
+
+The size of patches that are extracted from input feature map..ie here 3x3
+The number of filters computed from convolutions
+
+Maxpooling consist of extracting features from input feature map and outputig maximum value of each channel.
+
